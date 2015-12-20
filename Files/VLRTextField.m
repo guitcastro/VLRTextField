@@ -195,6 +195,7 @@
 
 - (void)removeErrorView {
     if (self.errorLabel) {
+    
         UILabel *errorLabel = self.errorLabel;
         self.errorLabel = nil;
         
